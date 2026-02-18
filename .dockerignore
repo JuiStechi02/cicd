@@ -1,0 +1,4 @@
+Dockerfile
+venv/
+.mypy_cache/
+.github/
