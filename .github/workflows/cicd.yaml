@@ -51,7 +51,7 @@ jobs:
           username: student
           key: ${{ secrets.KEY }}
           passphrase: ${{ secrets.PASS }}
-          script:
+          script: |
             cd /home/student/chirikova
             docker compose down
             docker compose pull
